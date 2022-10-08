@@ -1,0 +1,15 @@
+.blogContainerActual {
+    padding-bottom: 5% !important;
+}
+
+.textSection p {
+    display: none;
+}
+
+.textSection h4 {
+    font-family: monospace;
+}
+
+.textSection h3 {
+    font-size: 16px;
+}

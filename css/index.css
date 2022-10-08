@@ -1,0 +1,109 @@
+header {
+    position: absolute !important;
+}
+
+.logoBox a {
+    color: white !important;
+}
+
+.headerList li a {
+    color: white;
+}
+
+.blogShowcase {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogHolder {
+    width: 50%;
+    flex: 50%;
+    display: flex;
+}
+
+.blogThumbnail {
+    width: 100%;
+    position: relative;
+}
+
+.blogThumbnail img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.imageText {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.imageText h3 {
+    color: white;
+    letter-spacing: 6px;
+}
+
+.blogThumbnail:hover .imageText {
+    visibility: visible !important;
+    opacity: 1;
+}
+
+.largeSection {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.showcaseTitle {
+    padding-bottom: 3%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+}
+
+.showcaseTitle h1 {
+    letter-spacing: 2px;
+}
+
+.learnMoreButtonRegular button {
+    background-color: transparent;
+    border: 2px solid #17252A;
+    color: #17252A;
+}
+
+.learnMoreButton button, .learnMoreButtonRegular button {
+    text-transform: none;
+    padding: 25px 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.learnMoreContainer {
+    margin-top: 5%;
+    margin-bottom: 0 !important;
+}
+
+.learnMoreContainer:hover button {
+    color: teal;
+    border: 2px solid teal;
+}
+

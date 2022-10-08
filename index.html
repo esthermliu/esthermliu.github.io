@@ -1,0 +1,66 @@
+---
+layout: default
+title: Bite-Sized
+custom_css: 
+    - blogMedia
+    - blogfirstcss
+    - index
+pagination: 
+    enabled: true
+---
+
+<!-- fade in effect -->
+<!-- \/\/\//\/\/\/\/ -->
+<style>
+	html {
+		background-color: white;
+	}
+	html.white {
+		background-color: white;	
+	}
+	body {
+	    opacity: 1;
+	    transition: opacity 1s;
+	}
+	body.fade-out {
+	    opacity: 0;
+	    transition: none;
+	}
+	
+</style>
+
+<script>document.body.className += 'fade-out';</script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(function() {
+	    $('body').removeClass('fade-out');
+	});
+</script>
+
+<div class = "landing">
+
+</div>
+<div class = "largeSection">
+    <div class = "showcaseTitle">
+        <h1>posts from the blog</h1>
+    </div>
+    <div class = "blogShowcase">
+    {% for post in site.posts limit: 5 %}
+        <div class = "blogHolder">
+            <a href = "{{site.baseurl}}{{post.url}}" class = "blogThumbnail">
+                <img src="{{site.baseurl}}{{post.thumbnail}}" alt="{{post.title}}">
+                <div class = "imageText">
+                    <h3>{{ post.title }}</h3>
+                    <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
+                </div>
+            </a>  
+        </div>
+    {% endfor %}
+    </div>
+
+<div class = "learnMoreContainer">
+    <a href="{{site.baseurl}}/blog" class="learnMoreButtonRegular">
+        <button>read more</button>
+    </a>
+</div>
+</div>

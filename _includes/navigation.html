@@ -1,0 +1,31 @@
+<header id = "secondBox" class = "navbar">
+	<nav class = "secondBox">
+    <div class = "logoBox">
+		<a class = "homepageLogo" href = "/">esther liu</a>
+	</div>
+		<ul class = "headerList">
+			<li><a href = "/about/" {% if page.url == "/about/" %} style = "color: teal !important;" {% endif %}> About </a></li>
+			<li><a href = "/blog/" {% if page.url contains "/blog/" %} style = "color: teal !important;"{% endif %}>Blog</a></li>
+			<li><a class = "sponsors" href = "/archive/" {% if page.url contains "/archive/" %} style = "color: teal !important;"{% endif %}> Archive </a></li>
+		</ul>
+	</nav>
+
+    <div id="hamburgerMenu" onclick="menuClicked(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <nav>
+        <ul id="navLinks">
+            <li>
+                 <a href="/about/" {% if page.url == "/about/" %} style = "color: teal !important;" {% endif %}>about</a>
+            </li>
+            <li>
+                <a href="/blog/" {% if page.url contains "/blog/" %} style = "color: teal !important;" {% endif %}>blog</a>
+            </li>
+            <li>
+                <a href="/archive/" {% if page.url contains "/archive/" %} style = "color: teal !important;" {% endif %}>archive</a>
+            </li>
+        </ul>
+    </nav>
+</header>

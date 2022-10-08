@@ -1,0 +1,56 @@
+---
+layout: years
+title: Archive 2020
+custom_css: 
+    - archivecss
+    - blogMedia
+    - years
+pagination: 
+    enabled: true
+---
+
+
+{% assign current = "2022" %}
+{% assign currentMonth = "January" %}
+{% for post in site.posts %}
+    {% assign postYear = post.date | date: "%Y" %}
+    {% assign postMonth = post.date  | date: "%B" %}
+
+        {% if postYear == current and postMonth != currentMonth %}
+            <div class = "postMonth">{{ postMonth }} </div>
+        {% endif %}
+
+        {% if postYear == current %}
+         {% include thumbnail-text.html %}
+        {% endif %}
+        {% assign currentMonth = postMonth %}
+{% endfor %}
+
+</div>
+</div>
+<div class = "postLog">
+    <div class = "archive">
+        <h3>Years</h3>
+        <div id = "archiveLink" class = "recentPostOverall">
+            <div class = "archiveHolder">
+                <!--<a href = "#">Archive Coming Soon! <br>Our Blog Is Still Under Construction </a>-->
+                {% assign currentYear = site.time | date: "%Y" %}
+                {% assign currentMonth = site.time | date: "%B" %}
+                {% for post in site.posts %}
+                    {% assign postYear = post.date | date: "%Y" %}
+                    {% assign postMonth = post.date  | date: "%B" %}
+
+                    {% if forloop.first %}
+                   <li><a href = "{{ "/archive/years/num" | prepend: site.baseurl | replace: "num", postYear }}" {% if post.url contains "/2022/" %} style = "color: teal !important;" {% endif %}> {{ postYear}}</a></li>
+                    {% endif %}
+
+                    {% if postYear != currentYear %}
+                    <li> <a href = "{{ "/archive/years/num" | prepend: site.baseurl | replace: "num", postYear }}" {% if post.url contains "/2022/" %} style = "color: teal !important;" {% endif %}> {{ postYear}}</a></li>          
+                    {% endif %}
+                    {% assign currentYear = postYear %}
+                    {% assign currentMonth = postMonth %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
