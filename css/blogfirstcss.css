@@ -16,12 +16,21 @@
     font-family: "Raleway", sans-serif;
 }
 
-.textSection p {
+.textSection p, .numbers {
 	margin-bottom: 15px;
 }
 
+.numbers {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.numbers b {
+    color: black;
+}
+
 .firstSection a {
-	color: #626262;
+	color: black;
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -93,7 +102,7 @@
 .firstSection {	
 	padding: 8% 20% 0% 20%;
 	font-family: Roboto, sans-serif;
-	color: #626262;
+	color: black;
 }
 
 .firstSection h2 {
@@ -141,7 +150,7 @@
  .blogContainerActual {
 	display: flex;
 	justify-content: space-between;
-	color: #626262;
+	color: black;
 	padding-bottom: 3%;
 	padding-top: 3%;
 	border-bottom: 1px solid #626262;
@@ -370,3 +379,8 @@
     padding-bottom: 5%;
     padding-top: 2%;
 }
+
+.extraSpace {
+    padding-bottom: 30px;
+}
+

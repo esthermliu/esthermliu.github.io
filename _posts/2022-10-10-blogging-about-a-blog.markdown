@@ -3,7 +3,7 @@ layout: post
 custom_css: 
     - blogMedia
     - blogfirstcss
-thumbnail: /images/360degreesShadow.png
+thumbnail: /images/360DegreesWhite.png
 title: "blogging about a blog"
 nextTitle: blogging about a blog
 ---
