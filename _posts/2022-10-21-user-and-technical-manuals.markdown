@@ -4,9 +4,13 @@ custom_css:
     - blogMedia
     - blogfirstcss
 thumbnail: /images/UserManuals.png
-title: "genre treasure hunt"
-nextTitle: genre treasure hunt
+title: "user and technical manuals"
+nextTitle: user and technical manuals
 ---
+
+<div class = "numbers larger"><b>some features of the genre</b></div>
+
+<div class = "extraSpace"></div>
 
 <div class = "numbers"><b>1.	use of visuals</b></div>
 
@@ -18,7 +22,7 @@ All of the technical manuals included visuals of some form, whether that be imag
 
 <b>Rotary Phone: </b>Includes an image of the rotary phone on the front page of the manual. Under the “installation” section, there are four diagrams illustrating the different features of the phone. 
 
-<b>Nexus 7: </b>Includes various pictures and diagrams. For instance, there is a diagram demonstrating how a customer would charge their Nexus 7, and screenshots of widgets as well as labelled pictures of the interface are provided as well. 
+<b>Nexus 7: </b>Includes various pictures and diagrams. For instance, there is a diagram demonstrating how a customer would charge their Nexus 7. Screenshots of widgets as well as labelled pictures of the interface are provided as well. 
 
 <div class = "extraSpace"></div>
 
@@ -27,7 +31,7 @@ Each of the manuals provide the company’s contact information in some form.
 
 <b>AKG BX-25E and BX-25ED Two-Channel Reverberation Unit:</b> Includes the company’s address (77 Selleck Street, Stamford, CT 06902) and phone number (203-348-2121) on the bottom of the last page of the manual.
 
-<b>GRIGRI Belay Device:</b> Provides a link to their website, www.petzi.com, for further information and a GRIGRI video after acknowledging that the information in the manual is “nonexhaustive.”
+<b>GRIGRI Belay Device:</b> Provides a link to their website, www.petzi.com, for further information and a GRIGRI video for users to access if they have unanswered questions after reading the manual. 
 
 <b>Rotary Phone: </b>First page of the manual provides ProTelX’s address (Suite B, Floor 8 St James House, Pendleton Way, Salford Manchester M6 5FW) as well as their customer service number (0845 521 4095) and website (www.protelx.com). This information is in a large, bold font so customers can easily find it.
 
@@ -57,7 +61,7 @@ The technical manuals have some form of a step-by-step tutorial that guides the 
 
 <b>Rotary Phone:</b> Includes an “installation” section, which describes how the customer must connect the telephone line cord to the line jack. There are numbers in the text which correspond to the appropriate diagram below. 
 
-<b>Nexus 7:</b> Provides instructions about setting up the tablet under the “Get Started” section. Users are walked through how to turn on the tablet, sign in, and charge the battery; other tips about Google Play widgets, Notifications, and Google Search are provided as well. 
+<b>Nexus 7:</b> Provides instructions about setting up the tablet under the “Get Started” section. Users are walked through how to turn the tablet on, sign in, and charge the battery; other tips about Google Play widgets, notifications, and Google Search are provided as well. 
 
 <div class = "extraSpace"></div>
 
@@ -79,16 +83,16 @@ The <b>AKG BX-25E and BX-25ED Two-Channel Reverberation Unit</b> manual includes
 
 The <b>GRIGRI Belay Device</b> manual is translated into different languages, including French, German, Italian, Chinese, Korean, and Japanese. 
 
-The <b>Rotary Phone</b> manual utilizes a font that is in all caps (aside from the front page).
+The <b>Rotary Phone</b> manual places their guarantee on the front page to ensure its visibility to customers.
 
 The <b>Nexus 7</b> manual has a table of contents at the beginning and is significantly longer and more text-heavy than the others. 
 
 <div class = "extraSpace"></div>
 
 <div class = "numbers"><b>other thoughts</b></div>
-The main purpose of the user/technical manual is to connect customers to the company that provides the product. The user manual must be able to properly communicate instructions to the customers; otherwise, regardless of how helpful a product is, if the customers are not able to understand how to utilize it, the product is ultimately rendered useless to them. Furthermore, well-written user manuals can indirectly promote a company and increase customer loyalty. 
+The main purpose of the user/technical manual is to connect customers to the company that provides the product. The user manual must be able to properly communicate instructions to the customers; otherwise, regardless of how helpful a product can potentially be, if the customers are not able to utilize it properly, the product is ultimately rendered useless.
 
-Each of the user manuals above are structured in different ways. Whereas some are more text-heavy—like the Nexus 7 guidebook—others rely more on visuals—such as the GRIGRI manual. Nonetheless, the genre of user manuals is rigid in the sense that there are certain guidelines for the content and design of these guidebooks. In terms of content, manuals need to use simple, plain language. Instructions are often step-by-step, concise, and easy to understand. Descriptions of common scenarios as well as troubleshooting tips are provided as well. Additionally, a well-written user manual typically provides information about further resources, whether that be links to the company website, the company’s phone number, or an address. There should also be some sort of logical flow to the overall manual—it would not make sense to give instructions about adjusting a product before explaining how to install it first. 
+Each of the user manuals above are structured in different ways. Whereas some are more text-heavy—like the Nexus 7 guidebook—others rely more on visuals—such as the GRIGRI manual. Nonetheless, the genre of user manuals is rigid in the sense that there are certain guidelines for the content and design of these guidebooks. In terms of content, manuals need to use simple, plain language. Instructions are often step-by-step, concise, and easy to understand. Descriptions of common scenarios as well as troubleshooting tips are provided as well. 
 
-For design, user manuals often have visuals of some form. The font should be legible—the manuals above all utilized sans-serif fonts, which are usually easier to read—as well as sufficiently large. The design should also be consistent throughout the entire manual; not only is this simply more visually pleasing, but it is also makes it simpler for the customer to navigate the content. 
+As for the design, user manuals often utilize visuals. The font should be large and legible—the example manuals all utilized sans-serif fonts, which are usually easier to read. The design should also be consistent throughout the entire manual; not only is this more visually pleasing, but it also helps customers navigate the content. 
 
