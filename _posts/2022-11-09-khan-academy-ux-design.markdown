@@ -32,4 +32,4 @@ Once a user completes a quiz, the website displays a cute visual effect with con
 
 <div class = "extraSpace"></div>
 
-Overall, I would say that Khan Academy has a solid UX design. Perhaps the only thing that could be improved upon is reducing the occasional lag on the website as well as finding better ways to present all of the site's resources to users in a streamlined way that does not overwhelm nor confuse them. 
+Overall, I would say that Khan Academy has a solid UX design. Perhaps the only thing that could be improved upon is reducing the occasional lag on the website as well as finding better ways to streamline all of the site's resources to users in a way that does not overwhelm nor confuse them. 
