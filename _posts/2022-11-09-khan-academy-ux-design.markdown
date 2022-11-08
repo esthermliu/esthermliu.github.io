@@ -28,5 +28,5 @@ Khan Academy allows users to choose their own courses, enabling users to persona
 <div class = "extraSpace"></div>
 
 <div class = "numbers"><b>4.	surprises and delights</b></div>
-Once a user completes a quiz, the website displays a cute visual effect with confetti and an encouraging message to congratulate the user. If the user has completed certain activities or reached a specific milestone, they are rewarded with badges. Users gain energy points after watching a video or finishing a quiz, providing a sense of accomplishment. These energy points can also be used to unlock new avatars, which “gamifies” the learning process and incentives users to keep learning through the platform. 
+Once a user completes a quiz, the website displays a cute visual effect with confetti and an encouraging message to congratulate the user. If the user has completed certain activities or reached a specific milestone, they are rewarded with badges. Users gain energy points after watching a video or finishing a quiz, providing a sense of accomplishment. These energy points can also be used to unlock new avatars, which “gamifies” the learning process and incentivizes users to keep learning through the platform. 
 
