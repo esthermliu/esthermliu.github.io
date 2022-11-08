@@ -30,3 +30,6 @@ Khan Academy allows users to choose their own courses, enabling users to persona
 <div class = "numbers"><b>4.	surprises and delights</b></div>
 Once a user completes a quiz, the website displays a cute visual effect with confetti and an encouraging message to congratulate the user. If the user has completed certain activities or reached a specific milestone, they are rewarded with badges. Users gain energy points after watching a video or finishing a quiz, providing a sense of accomplishment. These energy points can also be used to unlock new avatars, which “gamifies” the learning process and incentivizes users to keep learning through the platform. 
 
+<div class = "extraSpace"></div>
+
+Overall, I would say that Khan Academy has a solid UX design. Perhaps the only thing that could be improved upon is reducing the occasional lag on the website as well as finding better ways to present all of the site's resources to users in a streamlined way that does not overwhelm nor confuse them. 
