@@ -7,7 +7,7 @@ layout: default
 		<div class = "blogHolder">
 		<h3>{{ page.title }}</h3>
 		<h4>{{ page.date | date: "%B %-d, %Y" }}</h4>
-            <div class = "postThumbnail">
+            <div class = "postThumbnail" {% if page.showThumbnail == false %} style = "display: none !important;" {% endif %}>
                 <img src="{{site.baseurl}}{{page.thumbnail}}">
             </div>
 			<div class = "textSection">
