@@ -8,6 +8,8 @@ title: "khan academy's UX design"
 nextTitle: khan academy's UX design
 ---
 
+(Revised December 2, 2022)
+
 Though I have been a longtime user of Khan Academy, I have never taken the time to closely analyze Khan Academy’s UX design. Upon further examination, it appears that Khan Academy has an overall good UX design as it successfully meets the user’s needs, is sufficiently user-friendly, and pleasantly customizes the user’s experience. 
 <div class = "extraSpace"></div>
 
@@ -32,4 +34,5 @@ Once a user completes a quiz, the website displays a cute visual effect with con
 
 <div class = "extraSpace"></div>
 
-Overall, I would say that Khan Academy has a solid UX design. Perhaps the only thing that could be improved upon is reducing the occasional lag on the website as well as finding better ways to streamline all of the site's resources to users in a way that does not overwhelm nor confuse them. 
+<div class = "numbers"><b>suggestions for improvements</b></div>
+Overall, while Khan Academy has a solid UX design, there are some minor tweaks the company could make to improve the user experience. The website currently has a drop-down menu where the user can view all the courses offered on the site. As the site has grown over the years and now has many different courses available, the drop-down menu is incredibly large--it fills up the entire page--and is potentially overwhelming and confusing to first-time users. Khan Academy should instead attempt to streamline the site's resources to users in a more organized manner. Additionally, Khan Academy could provide some sort of road map for each subject to better guide users in their learning journey and self-study curriculum planning. Finally, Khan Academy should implement different color themes; the most popularly requested one is a dark theme, which would allow users to study more effectively and comfortably at night. 
